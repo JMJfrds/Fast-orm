@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
     db_user: str = 'Fastapi_owner'
     db_password: str = 'npg_rdlUW3Y4Ahow'
+    db_host: str = 'ep-falling-thunder-a16fz454-pooler.ap-southeast-1.aws.neon.tech'
     db_port: int = 5432
     db_name: str = 'Fastapi'
 
